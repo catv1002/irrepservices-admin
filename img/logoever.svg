@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="755px" height="447px" viewBox="0 0 755 447" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="leaf" transform="translate(289.000000, 23.000000)" fill-rule="nonzero">
+                <path d="M129.94412,0.57574 C129.94412,0.57574 150.70239,51.35931 61.7363,85.47044 C13.39417,104.00028 -23.73543,151.49411 20.5973,224.86026 C24.26877,192.0668 40.0118,119.76149 107.70597,103.26198 C107.70597,103.26198 44.70031,126.82152 39.1346,233.46589 C71.5095,238.0113 147.43828,241.06566 169.98126,175.17437 C199.74926,88.11743 129.94412,0.57574 129.94412,0.57574 Z" id="path2" fill="#3A7F0D"></path>
+                <path d="M39.16396,233.02216 C107.89335,205.59258 157.90225,141.33544 164.80427,64.6278 C150.75366,26.72727 129.94412,0.57574 129.94412,0.57574 C129.94412,0.57574 150.70239,51.35931 61.7363,85.47044 C13.39417,104.00028 -23.73543,151.49411 20.5973,224.86026 C24.26877,192.0668 40.0118,119.76149 107.70597,103.26198 C107.70197,103.26245 44.88395,126.76326 39.16396,233.02216 Z" id="path4" fill="#49A010"></path>
+                <circle id="circle6" fill="#3A7F0D" cx="13.73909" cy="80.73811" r="6.4252019"></circle>
+                <g id="g16" transform="translate(18.186157, 19.219779)" fill="#49A010">
+                    <circle id="circle8" cx="15.745823" cy="55.0931347" r="4.58923001"></circle>
+                    <circle id="circle10" cx="11.6157023" cy="11.4949835" r="11.4730754"></circle>
+                    <circle id="circle12" cx="46.9531427" cy="37.6539669" r="3.67147729"></circle>
+                    <circle id="circle14" cx="77.7050957" cy="17.0019637" r="10.5553226"></circle>
+                </g>
+            </g>
+            <text id="Evergreen-Network" font-family="AllerDisplay, Aller Display" font-size="72" font-weight="normal" fill="#76A66F">
+                <tspan x="63" y="326">Evergreen Network</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

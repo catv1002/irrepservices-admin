@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark background-nav">
+        <a class="navbar-brand color-evergreen" href="#">
+            <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Evergreen Network
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="maps.html">Mapa
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="usuarios.html">Usuarios</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="empresas.html">Empresas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="estadisticas.html">Estadisticas</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="w-100 tamaño-mapa" id="map"></div>
+    <div class="col-md-2 ">
+        <div class="row">
+            <div class="row bg-secondary m-3 p-1 border border-warning rounded" id="legend"></div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="agregarPunto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Agregar marcador</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="tarjeta">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Nombre del lugar</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej: Reciclamelo">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleTextarea">Descripción</label>
+                            <textarea class="form-control" id="exampleTextarea" placeholder="Reciclamos plasticos de todo tipo" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <h2>Selecciona el tipo de reciclaje</h2>
+                            <div class="container row">
+                                <div class="col-md-4">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="reciclaje" value="Bottle" checked>
+                                    <img class="w-50 h-50" src="img/bottle.svg" alt="Botella reciclada">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="reciclaje" value="Lamp">
+                                    <img class="w-50 h-50" src="img/lamp.svg" alt="Lampara reciclada">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="reciclaje" value="papel">
+                                    <img class="w-50 h-50" src="img/papel.svg" alt="Papel reciclado">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="js/mapa.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJXILj9GFk6hhFMAy4MmkfqZfiRvD12jQ&callback=initMap">
+        </script>
+</body>
+
+</html>

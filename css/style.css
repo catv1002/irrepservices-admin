@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/Aller/AllerDisplay.ttf')
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf')
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: rgba(176, 191, 59, 0.5);
+}
+
+.color-evergreen {
+    color: #76A66F;
+    font-family: Aller;
+}
+
+.background-nav {
+    background-color: #03588C;
+}
+
+.tamaño-mapa {
+    height: 91%;
+}
+
+.title {
+    color: rgb(181, 94, 31);
+}
+
+.title-tab {
+    color: rgb(167, 184, 41);
+}
